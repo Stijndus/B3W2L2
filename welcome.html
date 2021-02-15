@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .content {
+            display: flex;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form{
+            padding: 10px;
+            background-color: lightgrey;
+            border: black solid 2px;
+        }
+
+        label{
+            font-size: 20px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <form>
+            <label for="Naam">Naam:</label><br>
+            <input type="text" placeholder="Jane Doe" id="Naam" name="Naam"><br>
+            <label for="E-mail">E-mail:</label><br>
+            <input type="text" placeholder="example@example.com" id="E-mail" name="E-mail">
+        </form>
+    </div>
+</body>
+</html>
