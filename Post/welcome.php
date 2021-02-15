@@ -29,17 +29,13 @@
     <div class="content">
         <form>
         <h2>Naam: <?php
-            echo ($_GET['Naam']);
+            echo ($_POST['Naam']);
             ?></h2>
         <br>
         <h2>E-mail: <?php
-            echo ($_GET['E-mail']);
+            echo ($_POST['E-mail']);
             ?> </h2>
         </form>
     </div>
 </body>
 </html>
-
-// De gegevens staan in de url
-// Met gevoelige informatie
-//
